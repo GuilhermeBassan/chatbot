@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Oi",
+        "Olá",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite"
+      ],
+      "responses": [
+        "Posso ajudar?",
+        "Pois não?",
+        "Como posso ser útil?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tchau",
+        "Até mais",
+        "Até logo"
+      ],
+      "responses": [
+        "Até logo, espero ter ajudado!",
+        "Até mais, bom trabalho!",
+        "Tchau, conte conosco!."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Obrigado",
+        "Grato",
+        "Valeu",
+        "Agradeço"
+      ],
+      "responses": [
+        "Fico feliz em ajudar! Há algo mais que possa fazer?",
+        "Conte comigo!",
+        "Por nada! Ficamos felizes em auxiliar!"
+      ]
+    },
+    {
+      "tag": "access",
+      "patterns": [
+        "Preciso de acesso",
+        "Nao tenho acesso",
+        "Preciso acessar",
+        "Quero acessar",
+        "Tinha acesso",
+        "Problema no login",
+        "Não consigo logar",
+        "Meu usuário"
+      ],
+      "responses": [
+        "Que pena! Agora preciso saber onde está o problema de acesso."
+      ]
+    },
+    {
+      "tag": "computer_off",
+      "patterns": [
+        "Computador não liga",
+        "Computador desligado",
+        "Computador apagado",
+        "Computador não funciona"
+      ],
+      "responses": [
+        "Será que temos um problema de energia? Quem sabe a tomada tem um mal contato. Por favor confira as ligações e se o monitor está ligado.",
+        "Talvez temos um problema na tomada, pode ser um mal contato ou o monitor desligado. Poderia conferir?",
+        "Será que alguém desplugou a tomada ou deligou o monitor? Poderia conferir pra mim?"
+      ]
+    },
+    {
+      "tag": "defect",
+      "patterns": [
+        "Computador travado",
+        "Computador lento",
+        "Computador ruim"
+      ],
+      "responses": [
+        "Puxa que pena! Vamos tentar reiniciar pra ver se tem uma melhoria?",
+        "Isso é chato mesmo, mas talvez reiniciando a máquina melhore. Vamos tentar?",
+        "Que droga! Será que tem um programa muito pesado rodando?"
+      ]
+    },
+    {
+      "tag": "user_access",
+      "patterns": [
+        "Acesso ao sistema",
+        "Meu usuário"
+      ],
+      "responses": [
+        "Talvez sua senha foi redefinida, isso acontece de tempos em tempos. Por favor verifique se o sistema está pedindo senha nova.",
+        "Pode ser que alguém tenha deixado o Caps Lock ligado, pode verificar pra mim?"
+      ]
+    },
+    {
+      "tag": "file_access",
+      "patterns": [
+        "Acesso arquivo",
+        "Acessar arquivo",
+        "Acesso da pasta",
+        "Acessar a pasta"
+      ],
+      "responses": [
+        "Alguns arquivos e pastas necessitam de autorização para acesso. Por favor, abra uma solicitação de acesso e leve ao setor de TI, ou caso já tinha acesso e não consegue mais entrar, abra uma ordem de serviço que iremos verificar para você."
+      ]
+    }
+]
+}
